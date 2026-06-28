@@ -23,8 +23,8 @@
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
-                <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -88,9 +88,12 @@
                     <!-- Arctic Wolf -->
                     <div class="timeline-item card">
                         <div class="timeline-header">
-                            <div>
-                                <h3>SOC Analyst</h3>
-                                <h4>Arctic Wolf</h4>
+                            <div style="display: flex; align-items: center; gap: 15px;">
+                                <img src="https://logo.clearbit.com/arcticwolf.com" alt="Arctic Wolf Logo" style="width: 50px; height: 50px; object-fit: contain; border-radius: 8px;">
+                                <div>
+                                    <h3>Security Analyst</h3>
+                                    <h4>Arctic Wolf</h4>
+                                </div>
                             </div>
                             <span class="date">January 2026 – Present</span>
                         </div>
@@ -110,9 +113,12 @@
                     <!-- Govt of Ontario -->
                     <div class="timeline-item card">
                         <div class="timeline-header">
-                            <div>
-                                <h3>Tier 2 End User IT Experience Analyst (OPS)</h3>
-                                <h4>Government of Ontario</h4>
+                            <div style="display: flex; align-items: center; gap: 15px;">
+                                <img src="https://logo.clearbit.com/ontario.ca" alt="Government of Ontario Logo" style="width: 50px; height: 50px; object-fit: contain; border-radius: 8px;">
+                                <div>
+                                    <h3>Tier 2 End User IT Experience Analyst (OPS)</h3>
+                                    <h4>Government of Ontario</h4>
+                                </div>
                             </div>
                             <span class="date">January 2025 – May 2025</span>
                         </div>
@@ -130,9 +136,12 @@
                     <!-- SVKP -->
                     <div class="timeline-item card">
                         <div class="timeline-header">
-                            <div>
-                                <h3>IT & Network Administrator</h3>
-                                <h4>SVKP Engineering College</h4>
+                            <div style="display: flex; align-items: center; gap: 15px;">
+                                <img src="https://logo.clearbit.com/svkpinstitute.com" alt="SVKP Engineering College Logo" style="width: 50px; height: 50px; object-fit: contain; border-radius: 8px;" onerror="this.style.display='none'">
+                                <div>
+                                    <h3>IT & Network Administrator</h3>
+                                    <h4>SVKP Engineering College</h4>
+                                </div>
                             </div>
                             <span class="date">August 2021 – December 2022</span>
                         </div>
@@ -147,9 +156,12 @@
                     <!-- Internships -->
                     <div class="timeline-item card">
                         <div class="timeline-header">
-                            <div>
-                                <h3>Penetration Testing Intern</h3>
-                                <h4>Virtually Testing Foundation</h4>
+                            <div style="display: flex; align-items: center; gap: 15px;">
+                                <img src="https://logo.clearbit.com/virtuallytesting.com" alt="Virtually Testing Foundation Logo" style="width: 50px; height: 50px; object-fit: contain; border-radius: 8px;">
+                                <div>
+                                    <h3>Penetration Testing Intern</h3>
+                                    <h4>Virtually Testing Foundation</h4>
+                                </div>
                             </div>
                             <span class="date">October 2021 – December 2021</span>
                         </div>
@@ -159,9 +171,12 @@
 
                     <div class="timeline-item card">
                         <div class="timeline-header">
-                            <div>
-                                <h3>Cybersecurity Intern</h3>
-                                <h4>Gurugram Police – Cyber Cell</h4>
+                            <div style="display: flex; align-items: center; gap: 15px;">
+                                <img src="https://logo.clearbit.com/gurugrampolice.gov.in" alt="Gurugram Police Logo" style="width: 50px; height: 50px; object-fit: contain; border-radius: 8px;" onerror="this.style.display='none'">
+                                <div>
+                                    <h3>Cybersecurity Intern</h3>
+                                    <h4>Gurugram Police – Cyber Cell</h4>
+                                </div>
                             </div>
                             <span class="date">June 2021 – July 2021</span>
                         </div>
@@ -172,7 +187,58 @@
             </div>
         </section>
 
-        <section id="skills" class="section bg-light">
+        <section id="projects" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Notable Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card card">
+                        <div class="project-content">
+                            <h3>Email Analysis Tool</h3>
+                            <p>Developed a professional-grade email analysis utility for SOC analysts to detect phishing attempts, extract IOCs, map to MITRE ATT&CK, and generate investigation reports.</p>
+                            <div class="tags">
+                                <span>Python</span>
+                                <span>FastAPI</span>
+                                <span>React</span>
+                                <span>Docker</span>
+                            </div>
+                            <div style="margin-top: 20px;">
+                                <a href="https://github.com/AkshayPatel001/emailanalysis" target="_blank" style="color: var(--primary-color); font-weight: 500; display: inline-flex; align-items: center; gap: 8px;"><i class="fab fa-github"></i> View Repository</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card card">
+                        <div class="project-content">
+                            <h3>Linux Compliance Using Wazuh</h3>
+                            <p>Deployed and configured Wazuh SIEM/compliance manager on a Linux VM to enforce security
+                                compliance policies. Achieved a 3x improvement in compliance posture through automated
+                                policy implementation, rule tuning, and detailed reporting.</p>
+                            <div class="tags">
+                                <span>Wazuh</span>
+                                <span>Linux</span>
+                                <span>SIEM</span>
+                                <span>Compliance</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card card">
+                        <div class="project-content">
+                            <h3>SIEM Setup & Administration (ELK Stack)</h3>
+                            <p>Built a small-scale SIEM environment using the ELK Stack (Elasticsearch, Logstash,
+                                Kibana). Integrated diverse data sources to enable real-time security monitoring and
+                                event analysis across virtual networks.</p>
+                            <div class="tags">
+                                <span>ELK Stack</span>
+                                <span>Elasticsearch</span>
+                                <span>Kibana</span>
+                                <span>Security Monitoring</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
             <div class="container">
                 <h2 class="section-title">Technical Skills</h2>
                 <div class="skills-showcase">
@@ -256,69 +322,42 @@
             </div>
         </section>
 
-        <section id="projects" class="section">
-            <div class="container">
-                <h2 class="section-title">Notable Projects</h2>
-                <div class="projects-grid">
-                    <div class="project-card card">
-                        <div class="project-content">
-                            <h3>Linux Compliance Using Wazuh</h3>
-                            <p>Deployed and configured Wazuh SIEM/compliance manager on a Linux VM to enforce security
-                                compliance policies. Achieved a 3x improvement in compliance posture through automated
-                                policy implementation, rule tuning, and detailed reporting.</p>
-                            <div class="tags">
-                                <span>Wazuh</span>
-                                <span>Linux</span>
-                                <span>SIEM</span>
-                                <span>Compliance</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-card card">
-                        <div class="project-content">
-                            <h3>SIEM Setup & Administration (ELK Stack)</h3>
-                            <p>Built a small-scale SIEM environment using the ELK Stack (Elasticsearch, Logstash,
-                                Kibana). Integrated diverse data sources to enable real-time security monitoring and
-                                event analysis across virtual networks.</p>
-                            <div class="tags">
-                                <span>ELK Stack</span>
-                                <span>Elasticsearch</span>
-                                <span>Kibana</span>
-                                <span>Security Monitoring</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <section id="education" class="section bg-light">
             <div class="container">
                 <h2 class="section-title">Education</h2>
                 <div class="timeline">
                     <div class="timeline-item card">
                         <div class="timeline-header">
-                            <div>
-                                <h3>Diploma, Cybersecurity</h3>
-                                <h4>Georgian College</h4>
+                            <div style="display: flex; align-items: center; gap: 15px;">
+                                <img src="https://logo.clearbit.com/georgiancollege.ca" alt="Georgian College Logo" style="width: 50px; height: 50px; object-fit: contain; border-radius: 8px;">
+                                <div>
+                                    <h3>Diploma, Cybersecurity</h3>
+                                    <h4>Georgian College</h4>
+                                </div>
                             </div>
                             <span class="date">Barrie, Ontario</span>
                         </div>
                     </div>
                     <div class="timeline-item card">
                         <div class="timeline-header">
-                            <div>
-                                <h3>Diploma, Network & Security Architecture</h3>
-                                <h4>Fanshawe College</h4>
+                            <div style="display: flex; align-items: center; gap: 15px;">
+                                <img src="https://logo.clearbit.com/fanshawec.ca" alt="Fanshawe College Logo" style="width: 50px; height: 50px; object-fit: contain; border-radius: 8px;">
+                                <div>
+                                    <h3>Diploma, Network & Security Architecture</h3>
+                                    <h4>Fanshawe College</h4>
+                                </div>
                             </div>
                             <span class="date">London, Ontario</span>
                         </div>
                     </div>
                     <div class="timeline-item card">
                         <div class="timeline-header">
-                            <div>
-                                <h3>Bachelor of Technology, Computer Science</h3>
-                                <h4>Gujarat Technological University</h4>
+                            <div style="display: flex; align-items: center; gap: 15px;">
+                                <img src="https://logo.clearbit.com/gtu.ac.in" alt="Gujarat Technological University Logo" style="width: 50px; height: 50px; object-fit: contain; border-radius: 8px;">
+                                <div>
+                                    <h3>Bachelor of Technology, Computer Science</h3>
+                                    <h4>Gujarat Technological University</h4>
+                                </div>
                             </div>
                             <span class="date">Gujarat, India</span>
                         </div>
